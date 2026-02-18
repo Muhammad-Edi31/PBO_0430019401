@@ -22,9 +22,8 @@ class Cafe{
     return nama;
    }
 
-   public void setNama(String nama, String alamat) {
+   public void setNama(String nama) {
     this.nama = nama;
-    this.alamat = alamat;
    }
 
    public String getAlamat() {
@@ -51,7 +50,7 @@ public class Main {
         
    
         Cafe cafe2 = new Cafe("Janji Jiwa", "Indramayu");
-        cafe2.setNama("kenangan", "Cirebon");
+        cafe2.setNama("kenangan");
         cafe2.buka();
 
     }
